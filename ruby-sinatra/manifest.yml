@@ -3,5 +3,5 @@ applications:
 - name: test-ruby-sinatra
   random-route: true
   buildpacks:
-    - ruby_buildpack
+  - paketo-buildpacks/ruby
   memory: 256M
